@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('bg.jpeg')
+    center / cover no-repeat fixed;
+    font: 1em/1.618 Inner, sans-serif;
+}
+
+footer {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    position: absolute;
+    right: 20px;
+    bottom: 150px;
+    font-size: large;
+    color: white;
+}
+
+h2 {
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    height: 200px;
+    padding: 35px;
+    font-size: 15px;
+    color: yellow;
+    border: 1px solid darkgray;
+    border-radius: 20px;
+    background-color: rgb(225, 225, 225 / 30%);
+    box-shadow: 0 0 10px;
+    backdrop-filter: blur(5px);
+}
+
+.button{
+    display: flex;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 10px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+}
+
+#no {
+    background-color: red;
+    color: white;
+}
+
+#yes {
+    background-color: green;
+    color: white;
+}
